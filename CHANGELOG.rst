@@ -2,6 +2,14 @@
 Changelog for package sensor_filters
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.0 (2023-05-29)
+------------------
+* Using image_transport and point_cloud_transport where applicable.
+* Noetic compatibility.
+* Improved README and added example files.
+  Closes `#1 <https://github.com/ctu-vras/sensor_filters/issues/1>`_.
+* Contributors: Martin Pecka
+
 1.0.5 (2021-07-30)
 ------------------
 * Fixed typo leading to segfaults when using ChangeHeader filter.
