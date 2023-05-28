@@ -1,0 +1,46 @@
+ros-noetic-sensor-filters (1.1.0-1focal) focal; urgency=high
+
+  * Using image_transport and point_cloud_transport where applicable.
+  * Noetic compatibility.
+  * Improved README and added example files.
+    Closes #1 <https://github.com/ctu-vras/sensor_filters/issues/1>.
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Sun, 28 May 2023 22:00:00 -0000
+
+ros-noetic-sensor-filters (1.0.5-1focal) focal; urgency=high
+
+  * Fixed typo leading to segfaults when using ChangeHeader filter.
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Thu, 29 Jul 2021 22:00:00 -0000
+
+ros-noetic-sensor-filters (1.0.4-1focal) focal; urgency=high
+
+  * Added ChangeHeader filter
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Wed, 23 Jun 2021 22:00:00 -0000
+
+ros-noetic-sensor-filters (1.0.3-1focal) focal; urgency=high
+
+  * Fixed data types of nodes.
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Wed, 19 May 2021 22:00:00 -0000
+
+ros-noetic-sensor-filters (1.0.2-1focal) focal; urgency=high
+
+  * Fix for Noetic.
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Wed, 19 May 2021 22:00:00 -0000
+
+ros-noetic-sensor-filters (1.0.1-1focal) focal; urgency=high
+
+  * Initial version.
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Tue, 18 May 2021 22:00:00 -0000
+
+

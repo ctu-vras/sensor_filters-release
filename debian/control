@@ -1,0 +1,12 @@
+Source: ros-noetic-sensor-filters
+Section: misc
+Priority: optional
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-filters, ros-noetic-image-transport, ros-noetic-nodelet, ros-noetic-point-cloud-transport, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Homepage: https://github.com/ctu-vras/sensor_filters
+Standards-Version: 3.9.2
+
+Package: ros-noetic-sensor-filters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-filters, ros-noetic-image-transport, ros-noetic-nodelet, ros-noetic-point-cloud-transport, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Description: Simple sensor filter chain nodes and nodelets
