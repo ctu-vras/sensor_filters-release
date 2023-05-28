@@ -1,3 +1,26 @@
+## sensor_filters (noetic) - 1.1.0-1
+
+The packages in the `sensor_filters` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic sensor_filters` on `Sun, 28 May 2023 23:25:38 -0000`
+
+The `sensor_filters` package was released.
+
+Version of package(s) in repository `sensor_filters`:
+
+- upstream repository: https://github.com/ctu-vras/sensor_filters.git
+- release repository: https://github.com/ctu-vras/sensor_filters-release.git
+- rosdistro version: `1.0.3-1`
+- old version: `1.0.5-1`
+- new version: `1.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## sensor_filters (melodic) - 1.1.0-1
 
 The packages in the `sensor_filters` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic sensor_filters` on `Sun, 28 May 2023 23:18:15 -0000`
