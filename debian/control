@@ -1,0 +1,12 @@
+Source: ros-melodic-sensor-filters
+Section: misc
+Priority: optional
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), python-catkin-lint <!nocheck>, ros-melodic-catkin, ros-melodic-filters, ros-melodic-image-transport, ros-melodic-nodelet, ros-melodic-point-cloud-transport, ros-melodic-roscpp, ros-melodic-roslint <!nocheck>, ros-melodic-sensor-msgs
+Homepage: https://github.com/ctu-vras/sensor_filters
+Standards-Version: 3.9.2
+
+Package: ros-melodic-sensor-filters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-filters, ros-melodic-image-transport, ros-melodic-nodelet, ros-melodic-point-cloud-transport, ros-melodic-roscpp, ros-melodic-sensor-msgs
+Description: Simple sensor filter chain nodes and nodelets
