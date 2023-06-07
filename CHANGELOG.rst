@@ -2,6 +2,12 @@
 Changelog for package sensor_filters
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.1 (2023-06-07)
+------------------
+* Reformatted, added catkin lint.
+* Simplified the license statements.
+* Contributors: Martin Pecka
+
 1.1.0 (2023-05-29)
 ------------------
 * Using image_transport and point_cloud_transport where applicable.
