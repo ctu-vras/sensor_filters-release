@@ -1,0 +1,30 @@
+From 38e71ee826ee29b96bc18873f7453723298299c0 Mon Sep 17 00:00:00 2001
+From: Martin Pecka <peckama2@fel.cvut.cz>
+Date: Thu, 1 Jun 2023 08:44:52 +0100
+Subject: [PATCH] Update control
+
+---
+ debian/control | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/debian/control b/debian/control
+index 8ecb526..37e7d72 100644
+--- a/debian/control
++++ b/debian/control
+@@ -2,11 +2,11 @@ Source: ros-melodic-sensor-filters
+ Section: misc
+ Priority: optional
+ Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+-Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-filters, ros-melodic-image-transport, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-noetic-point-cloud-transport
++Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-filters, ros-melodic-image-transport, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-point-cloud-transport
+ Homepage: https://github.com/ctu-vras/sensor_filters
+ Standards-Version: 3.9.2
+ 
+ Package: ros-melodic-sensor-filters
+ Architecture: any
+-Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-filters, ros-melodic-image-transport, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-noetic-point-cloud-transport
++Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-filters, ros-melodic-image-transport, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-point-cloud-transport
+ Description: Simple sensor filter chain nodes and nodelets
+-- 
+2.40.1
+
